@@ -36,7 +36,7 @@ const links = [
 const samplePageLinks = [
   {
     text: "Mother, May I? (2023)",
-    url: "https://aius.site/movie/872585/oppenheimer.html",
+    url: "https://aius.site/movie/1019961/mother-may-i.html",
     description:
       "Watch Full Movie Mother, May I? (2023), a cinematic masterpiece that brings to life the remarkable journey of J. Robert Oppenheimer, the renowned physicist and key figure in the development of the atomic bomb during World War II. In this SEO-optimized article, we delve deep into the heart of this captivating film, exploring its visionary direction, stellar cast, and the profound impact it has left on both the film industry and popular culture.",
   },
@@ -92,7 +92,7 @@ const IndexPage = () => (
         
       </p>
     </div>
-    <ul className={styles.list}>
+    <ul className={styles.textCenter}>
       {links.map(link => (
         <li key={link.url} className={styles.listItem}>
           <a
