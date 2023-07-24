@@ -92,7 +92,7 @@ const IndexPage = () => (
         
       </p>
     </div>
-    <ul className={styles.textCenter}>
+    <ul className={styles.textjustify}>
       {links.map(link => (
         <li key={link.url} className={styles.listItem}>
           <a
